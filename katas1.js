@@ -1,14 +1,14 @@
-/*function oneThroughTwenty(n) {
+function oneThroughTwenty(n) {
   let meuRetorno = [];
     for (let i = 1; i <= n; i++) {
         meuRetorno.push(i)
     }
   return meuRetorno
 }
-console.log(oneThroughTwenty(20))*/
+console.log(oneThroughTwenty(20))
 
 
-/*function evensToTwenty(n) {
+function evensToTwenty(n) {
   let meuRetorno = [];
     for (let i = 1; i <= n; i++) {
       if (i % 2 == 0) {
@@ -17,10 +17,10 @@ console.log(oneThroughTwenty(20))*/
 }
   return meuRetorno
 }
-console.log(evensToTwenty(20))*/
+console.log(evensToTwenty(20))
 
 
-/*function oddsToTwenty(n) {
+function oddsToTwenty(n) {
   let meuRetorno = [];
     for (let i = 1; i <= n; i++) {
       if (i % 2 != 0) {
@@ -29,10 +29,10 @@ console.log(evensToTwenty(20))*/
 }
 return meuRetorno
 }
-console.log(oddsToTwenty(20))*/
+console.log(oddsToTwenty(20))
 
 
-/*function multiplesOfFive(n) {
+function multiplesOfFive(n) {
   let meuRetorno = [];
     for (let i = 1; i <= n; i++) {
         if (i % 5 == 0) {
@@ -41,10 +41,10 @@ console.log(oddsToTwenty(20))*/
     }
 return meuRetorno
 }
-console.log(multiplesOfFive(100))*/
+console.log(multiplesOfFive(100))
 
 
-/*function squareNumbers(n) {
+function squareNumbers(n) {
   let meuRetorno = [];
     for (let i = 1; i <= n; i++) {
         if (i**(1/2) % 1 == 0) {
@@ -53,20 +53,20 @@ console.log(multiplesOfFive(100))*/
   }
 return meuRetorno   
 }
-console.log(squareNumbers(100))*/
+console.log(squareNumbers(100))
 
 
-/*function countingBackwards(n) {
+function countingBackwards(n) {
   let meuRetorno = [];
   for (let i = 20; i >= n; i--) {
       meuRetorno.push(i)
   }
 return meuRetorno
 }
-console.log(countingBackwards(1))*/
+console.log(countingBackwards(1))
 
 
-/*function evenNumbersBackwards(n) {
+function evenNumbersBackwards(n) {
   let meuRetorno = [];
     for (let i = 20; i >= n; i--) {
       if (i % 2 == 0) {
@@ -75,9 +75,9 @@ console.log(countingBackwards(1))*/
     }
 return meuRetorno
 }
-console.log(evenNumbersBackwards(1))*/
+console.log(evenNumbersBackwards(1))
 
-/*function oddNumbersBackwards(n) {
+function oddNumbersBackwards(n) {
   let meuRetorno = [];
   for (let i = 20; i >= n; i--) {
     if (i % 2 != 0) {
@@ -86,9 +86,9 @@ console.log(evenNumbersBackwards(1))*/
   }
 return meuRetorno 
 }
-console.log(oddNumbersBackwards(1))*/
+console.log(oddNumbersBackwards(1))
 
-/*function multiplesOfFiveBackwards(n) {
+function multiplesOfFiveBackwards(n) {
   let meuRetorno = [];
     for (let i = 100; i >= n; i--) {
         if (i % 5 == 0) {
@@ -97,9 +97,9 @@ console.log(oddNumbersBackwards(1))*/
   }
 return meuRetorno
 }
-console.log(multiplesOfFiveBackwards(1))*/
+console.log(multiplesOfFiveBackwards(1))
 
-/*function squareNumbersBackwards(n) {
+function squareNumbersBackwards(n) {
   let meuRetorno = [];
     for (let i = 100; i >= n; i--) {
         if (i**(1/2) % 1 == 0) {
@@ -109,4 +109,4 @@ console.log(multiplesOfFiveBackwards(1))*/
 return meuRetorno
 }
 
-console.log(squareNumbersBackwards(1))*/
+console.log(squareNumbersBackwards(1))
